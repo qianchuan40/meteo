@@ -1,0 +1,33 @@
+{
+	"pages": [ // pages 是数组，每个页面是独立的对象
+		{
+			"path": "pages/index1/login",// 第一个页面
+			"style": {
+				"navigationBarTitleText": "系统登录",
+				"navigationStyle": "custom" // 隐藏原生导航栏
+			}
+		},
+		{
+			"path": "pages/index1/index", // 第二个页面
+			"style": {
+				"navigationBarTitleText": "气象监测系统" ,	
+				"navigationStyle": "custom" 
+			}
+		}, // 注意：两个对象之间需要用逗号分隔
+		{
+			"path": "pages/index1/chaxun", // 第三个页面
+			"style": {
+				"navigationBarTitleText": "历史记录",
+				"navigationStyle": "custom" 
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
