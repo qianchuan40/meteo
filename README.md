@@ -20,6 +20,9 @@
   Python Flask轻量级REST API，提供/api/sensors接口按设备名+时间范围查询MySQL中sensordata表的历史数据，支持limit分页，返
   回JSON。作为Node.js主服务的补充，专门承接前端历史数据查询请求，与主服务共享同一MySQL数据库。
 
+  5.服务器是Node.js + Express + WebSocket +
+    MySQL，实现硬件TCP数据采集、实时WebSocket推送、历史数据查询、文件上传解析与设备反向控制
+    
   ---
   整体架构关系
 
